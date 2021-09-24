@@ -1,6 +1,6 @@
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted below.
+The files in this repository were used to configure the network depicted below. Included with this image are also the YAML files used to configure the Filebeat and Metricbeat playbook and the configuration.
 
 ![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
 
