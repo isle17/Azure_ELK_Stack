@@ -38,7 +38,6 @@ These files have been tested and used to generate a live ELK deployment on Azure
       name: filebeat.service
       enabled: yes   
 ```
- ![filebeat-playbook.yml](Playbooks/filebeat-playbook.yml)
   
 
 This document contains the following details:
@@ -54,8 +53,12 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
+Load balancing ensures that the application will be highly avialable, in addition to restricting unwanted traffic to the network.
 - _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?_
+- Load balancers works by distributing traffic to sever servers instead of having one server handling all the incoming traffic. It also ensures
+- that if one of the servers loses service another one will be there to handle requests. A load balancer also adds security by hiding how many servers
+- are on the network. 
+- A jump box is usefull for accessing our network because it will obfiscate the local IP of a security analyst or IT administrator.  
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 - _TODO: What does Filebeat watch for?_
