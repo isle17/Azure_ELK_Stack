@@ -6,12 +6,12 @@ The files in this repository were used to configure the network depicted below. 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-'''python
+```python
 for this in that:
   print(that)
-'''
+```
 
-''' YAML
+``` YAML
 ---
 - name: installing and launching filebeat
   hosts: webservers
@@ -41,7 +41,7 @@ for this in that:
     systemd:
       name: filebeat.service
       enabled: yes   
-'''
+```
  ![filebeat-playbook.yml](Playbooks/filebeat-playbook.yml)
   
 
