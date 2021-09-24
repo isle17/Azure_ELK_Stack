@@ -1,8 +1,8 @@
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted below. Included with this image are also the YAML files used to configure the Filebeat and Metricbeat playbook and the configuration.
+The files in this repository were used to configure the network depicted below. Included with this image are also the YAML files used to configure the Filebeat and Metricbeat playbook and the configuration. This and that
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+![TODO: Update the path with the name of your diagram](Images/RedTeam_Network_Diagram.drawio.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
