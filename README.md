@@ -231,9 +231,6 @@ SSH into the control node and follow the steps below:
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
-To get the playbook use the following bash commands
-
-```bash
-curl https://github.com/isle17/Azure_ELK_Stack/commit/5fb38e919fa34b573151eccedc5f4322ecd38bd9#diff-91a556e871fde7f965323295d8377560e87467377457c0c1a97f967f27529dee >> install-elk.yml
+The bash commands can be found in the Linux directory of this repository [Linux Commands](Linux/Linux_Commands.md
 ```
 
