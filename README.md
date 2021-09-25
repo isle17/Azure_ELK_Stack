@@ -231,6 +231,6 @@ SSH into the control node and follow the steps below:
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
-The bash commands can be found in the Linux directory of this repository [Linux Commands](Linux/Linux_Commands.md
+The bash commands can be found in the Linux directory of this repository [Linux Commands](Linux/Linux_Commands.md)
 ```
 
