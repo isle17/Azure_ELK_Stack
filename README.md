@@ -229,8 +229,53 @@ SSH into the control node and follow the steps below:
   - ```51.141.165.209:5601/app/kibana``` to see if the ELK servers are running if successful the following screen should appear.
   - ![DVWA Launch Page](Images/ELK_GUI.png)
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
 The bash commands can be found in the Linux directory of this repository [Linux Commands](Linux/Linux_Commands.md)
+Linux Commands
+
+Connecting to the Jump Box via SSH:
+
+```bash
+ssh <username>@<Jump Box Public IP>
+```
+Once an SSH connection is established the Ansible Provisioner needs to be started:
+
+```bash
+sudo docker start <container name> 
+```
+After starting our container we can verify its running by:
+
+```bash
+sudo docker ps
+```
+Attaching to the Docker container is the next step:
+
+```bash
+sudo docker attach <container name>
+```
+
+Inside the container download the ```intall-elk.yml``` from the repository by:
+
+```bash
+$ curl https://raw.githubusercontent.com/isle17/Azure_ELK_Stack/main/Ansible/install-elk.yml >> install-elk.yml
+```
+
+Make sure that this file is downloaded the ```/etc/ansible``` directory 
+
+
+
+Once the playbook has been downloaded the Ansible playbook can be run with the following command from our Ansible node.
+
+```bash
+ansidle-playbook install-elk.yml
+```
+
+To check if the install was successful: 
+
+```bash
+ssh <username>@<ELK-VM Private IP Address>
+```
+
+ and then use ```docker ps``` to see if the ELK instance is running
 ```
 
