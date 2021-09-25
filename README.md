@@ -277,5 +277,5 @@ ssh <username>@<ELK-VM Private IP Address>
 ```
 
  and then use ```docker ps``` to see if the ELK instance is running
-```
+
 
