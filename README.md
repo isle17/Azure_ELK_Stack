@@ -199,11 +199,11 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
-| Name  | Ip address | service |      |
-| ----- | ---------- | ------- | ---- |
-| Web-1 | 10.0.0.5   | DVWA    |      |
-| Web-2 | 10.0.0.6   | DVWA    |      |
-| Web-3 | 10.0.0.7   | DVWA    |      |
+| Name  | Ip address | service |
+| ----- | ---------- | ------- | 
+| Web-1 | 10.0.0.5   | DVWA    | 
+| Web-2 | 10.0.0.6   | DVWA    | 
+| Web-3 | 10.0.0.7   | DVWA    | 
 
 We have installed the following Beats on these machines:
 - Filebeat and Metricbeat were both installed on Web-1, Web-2, and Web-3
