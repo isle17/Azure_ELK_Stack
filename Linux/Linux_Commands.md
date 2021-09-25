@@ -5,3 +5,5 @@ from our Ansible node.
 ```bash
 ansidle-playbook install-elk.yml
 ```
+
+To check if our 
