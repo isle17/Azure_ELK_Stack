@@ -216,7 +216,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the ```elk-playbook.yml``` file to Ansibles node  directory ```/etc/ansible```.
+- Copy the ```install-elk.yml``` file to Ansibles node  directory ```/etc/ansible```.
 
 - Update the hosts file such there is an ``elk`` hosts section :
 
